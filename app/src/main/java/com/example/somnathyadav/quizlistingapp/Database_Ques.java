@@ -60,16 +60,30 @@ public class Database_Ques extends SQLiteOpenHelper {
     }
 
     private void addQuestions_Objs() {
-        Questions_Obj q1 = new Questions_Obj("What is 4+4", "7", "8", "10", "-1", "80", "8");
+        Questions_Obj q1 = new Questions_Obj("What is 4+4", "7", "8", "19", "41", "80", "8");
         this.addQuestions_ObjToDB(q1);
         Questions_Obj q2 = new Questions_Obj("What is 5+4", "90", "92", "10", "9", "80", "9");
         this.addQuestions_ObjToDB(q2);
-        Questions_Obj q3 = new Questions_Obj("What is 40-4", "44", "36", "10", "-1", "80", "36");
+        Questions_Obj q3 = new Questions_Obj("What is 40-4", "44", "36", "90", "1", "80", "36");
         this.addQuestions_ObjToDB(q3);
-        Questions_Obj q4 = new Questions_Obj("What is 50+4", "8", "9", "54", "-1", "80", "54");
+        Questions_Obj q4 = new Questions_Obj("What is 50+4", "8", "96", "54", "-1", "80", "54");
         this.addQuestions_ObjToDB(q4);
-        Questions_Obj q5 = new Questions_Obj("What is 4+34", "83", "9", "38", "-1", "80", "38");
+        Questions_Obj q5 = new Questions_Obj("What is 4+34", "83", "94", "38", "-1", "80", "38");
         this.addQuestions_ObjToDB(q5);
+        Questions_Obj q6 = new Questions_Obj("What is 40+34", "73", "29", "38", "74", "80", "74");
+        this.addQuestions_ObjToDB(q6);
+        Questions_Obj q7 = new Questions_Obj("What is 14+34", "95", "93", "48", "32", "8", "48");
+        this.addQuestions_ObjToDB(q7);
+        Questions_Obj q8 = new Questions_Obj("What is 34+34", "68", "90", "98", "91", "80", "68");
+        this.addQuestions_ObjToDB(q8);
+        Questions_Obj q9 = new Questions_Obj("What is 44+44", "68", "44", "88", "91", "80", "88");
+        this.addQuestions_ObjToDB(q9);
+        Questions_Obj q10 = new Questions_Obj("What is 55+55", "60", "110", "308", "93", "80", "110");
+        this.addQuestions_ObjToDB(q10);
+        Questions_Obj q11 = new Questions_Obj("What is 34+30", "64", "94", "28", "91", "80", "64");
+        this.addQuestions_ObjToDB(q11);
+
+
     }
 
     public void addQuestions_ObjToDB(Questions_Obj q) {
